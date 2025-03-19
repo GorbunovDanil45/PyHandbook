@@ -1,5 +1,7 @@
 price = (input())
 weight = (input())
 banknotes = (input())
+
 total_price = price * weight
-print(int(banknotes - total_price))
+change = int(banknotes - total_price)
+print(change)
