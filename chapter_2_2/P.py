@@ -27,7 +27,7 @@ elif tolya < petya > vasya and tolya > vasya:
     second = 'Толя'
     third = 'Вася'
 
-print(f'{first:^24}')
-print(f'{second:<24}')
-print(f'{third:>24}')
+print(f'{"":8}{first:^8}')
+print(f'{second:^8}')
+print(f'{"":16}{third:^8}')
 print(' II        I        III ')
