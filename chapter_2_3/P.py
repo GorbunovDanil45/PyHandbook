@@ -1,4 +1,4 @@
-number: int = int((int(input()) ** 2) ** 0.5)
+number: int = int(input())
 
 temp_number = number
 revers_number: int = 0
